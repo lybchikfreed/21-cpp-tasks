@@ -101,6 +101,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="tasks\task1.cpp" />
     <ClCompile Include="tasks\task2.cpp" />
+    <ClCompile Include="tasks\task3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tasks.h" />
