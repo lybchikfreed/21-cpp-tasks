@@ -99,6 +99,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="tasks\task1.cpp" />
+    <ClCompile Include="tasks\task2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tasks.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
