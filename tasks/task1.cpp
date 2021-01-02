@@ -6,7 +6,7 @@ char* intToB(int i) {
 	return bin;
 }
 int task1() {
-	int k,a,b;
+	unsigned int k,a,b;
 	char *notarr[]= { "not ","" };
 	bool inrng;
 	printf_s("input k: ");
@@ -24,6 +24,10 @@ int task1() {
 	printf_s("%s is %sin range(%s..%s)\n", kbin, notarr[inrng], abin, bbin);
 	printf_s("%o is %sin range(%o..%o)\n",k,notarr[inrng],a,b); 
 	printf_s("%X is %sin range(%X..%X)\n", k, notarr[inrng], a, b);
+	delete[] kbin;
+	delete[] abin;
+	delete[] bbin;
+
 	// doesn't work with negative numbers
 	return 1;
 }
