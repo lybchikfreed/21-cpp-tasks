@@ -14,7 +14,7 @@ int main() {
 		return 0;
 	}
 	(*tasksarr[a-1])();
-
+	std::cout << ":)";
 	system("pause");
 	return 0;
 }
