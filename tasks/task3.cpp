@@ -18,5 +18,5 @@ int task3() {
 	printf_s("input p: ");
 	std::cin >> p;
 	printf_s("object will travel %.2f m in %.2f s \n", fallHeight(Speed0(s, k * 60), p),p);
-	return 1;
+	return 0;
 }

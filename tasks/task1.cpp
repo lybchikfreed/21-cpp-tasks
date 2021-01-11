@@ -6,7 +6,7 @@ char* intToB(int i) {
 	return bin;
 }
 int task1() {
-	unsigned int k,a,b;
+	int k,a,b;
 	char *notarr[]= { "not ","" };
 	bool inrng;
 	printf_s("input k: ");
@@ -29,5 +29,5 @@ int task1() {
 	delete[] bbin;
 
 	// doesn't work with negative numbers
-	return 1;
+	return 0;
 }

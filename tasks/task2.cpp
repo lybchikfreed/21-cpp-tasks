@@ -22,5 +22,5 @@ int task2() {
 	int Sec = S % 60;
 	printf_s("Today is %d, %d : %d : %d\n", W+1, H, M, Sec);
 	//TODO print DAY:MONTH:YEAR from 6.1.2020
-	return 1;
+	return 0;
 }
